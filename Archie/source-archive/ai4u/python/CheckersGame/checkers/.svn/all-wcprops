@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/111/python/CheckersGame/checkers
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/110/python/CheckersGame/checkers/__init__.py
+END
+CheckersGameState.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/110/python/CheckersGame/checkers/CheckersGameState.py
+END
+CheckersPlayer.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/110/python/CheckersGame/checkers/CheckersPlayer.py
+END

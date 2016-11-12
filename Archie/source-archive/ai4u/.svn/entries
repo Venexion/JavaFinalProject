@@ -1,0 +1,58 @@
+10
+
+dir
+135
+http://ai4u.googlecode.com/svn
+http://ai4u.googlecode.com/svn
+
+
+
+2012-11-03T10:25:47.712869Z
+135
+nadir.izr@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6939737c-85e0-11dd-aace-ddc5e87cd236
+
+com.ai4u.util
+dir
+
+com.ai4u.games.mankala
+dir
+
+com.ai4u.games.checkers
+dir
+
+python
+dir
+
+wiki
+dir
+
+lib
+dir
+
+com.ai4u.core
+dir
+
+linux_env
+dir
+
+com.ai4u.games.tictactoe
+dir
+
+HangMan
+dir
+

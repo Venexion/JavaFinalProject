@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/30/com.ai4u.games.checkers/trunk/src/com/ai4u/games/checkers
+END
+CheckersMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/30/com.ai4u.games.checkers/trunk/src/com/ai4u/games/checkers/CheckersMain.java
+END
+CheckersMove.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/30/com.ai4u.games.checkers/trunk/src/com/ai4u/games/checkers/CheckersMove.java
+END
+CheckersBoard.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/30/com.ai4u.games.checkers/trunk/src/com/ai4u/games/checkers/CheckersBoard.java
+END
+ConsoleDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/30/com.ai4u.games.checkers/trunk/src/com/ai4u/games/checkers/ConsoleDisplayer.java
+END
+BitBoardConsts.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/30/com.ai4u.games.checkers/trunk/src/com/ai4u/games/checkers/BitBoardConsts.java
+END
+CheckersGame.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/30/com.ai4u.games.checkers/trunk/src/com/ai4u/games/checkers/CheckersGame.java
+END
+CheckersPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/30/com.ai4u.games.checkers/trunk/src/com/ai4u/games/checkers/CheckersPlayer.java
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/65/com.ai4u.core/trunk/src/com/ai4u/core/logic/computer
+END
+MinimaxLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/65/com.ai4u.core/trunk/src/com/ai4u/core/logic/computer/MinimaxLogic.java
+END
+RandomMoveLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/62/com.ai4u.core/trunk/src/com/ai4u/core/logic/computer/RandomMoveLogic.java
+END

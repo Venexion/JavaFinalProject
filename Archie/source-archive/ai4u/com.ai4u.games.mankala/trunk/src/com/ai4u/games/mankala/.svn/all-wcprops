@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/72/com.ai4u.games.mankala/trunk/src/com/ai4u/games/mankala
+END
+MankalaMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/72/com.ai4u.games.mankala/trunk/src/com/ai4u/games/mankala/MankalaMain.java
+END
+MankalaMove.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/72/com.ai4u.games.mankala/trunk/src/com/ai4u/games/mankala/MankalaMove.java
+END
+MankalaBoard.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/72/com.ai4u.games.mankala/trunk/src/com/ai4u/games/mankala/MankalaBoard.java
+END
+MankalaGame.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/72/com.ai4u.games.mankala/trunk/src/com/ai4u/games/mankala/MankalaGame.java
+END
+MankalaScore.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/72/com.ai4u.games.mankala/trunk/src/com/ai4u/games/mankala/MankalaScore.java
+END
+MankalaDisplayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/72/com.ai4u.games.mankala/trunk/src/com/ai4u/games/mankala/MankalaDisplayer.java
+END
+MankalaPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/72/com.ai4u.games.mankala/trunk/src/com/ai4u/games/mankala/MankalaPlayer.java
+END
+MankalaEvaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/72/com.ai4u.games.mankala/trunk/src/com/ai4u/games/mankala/MankalaEvaluator.java
+END

@@ -1,0 +1,161 @@
+<html>
+  <head>
+    <title>
+      Hangman's Helper
+    </title>
+    <script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/css/tabs.css" />
+    <style>
+      .panes div {
+        display:none;   
+        padding:15px 10px;
+        border:1px solid #999;
+        border-bottom:0px;
+        border-top:0;
+        height:100px;
+        font-size:14px;
+        background-color:#fff;
+      }
+    </style>
+
+    <script>
+      function Request(service, opt_argv) {
+        if (!opt_argv) opt_argv = Array();
+
+        var callback = null;
+        var len = opt_argv.length;
+        if (len > 0 && typeof opt_argv[len-1] == 'function') {
+          callback = opt_argv[len-1];
+          opt_argv.length--;
+        }
+        var async = (callback != null);
+
+        var query = '/' + encodeURIComponent(service);
+        if (opt_argv.length > 0) {
+          var key = 'arg0';
+          var val = JSON.stringify(opt_argv[0]);
+          query += '?' + key + '=' + encodeURIComponent(val);
+        }
+        for (var i = 1; i < opt_argv.length; i++) {
+          var key = 'arg' + i;
+          var val = JSON.stringify(opt_argv[i]);
+          query += '&' + key + '=' + encodeURIComponent(val);
+        }
+        query += '&ts=' + new Date().getTime();
+
+        var req = new XMLHttpRequest();
+        req.open('GET', query, async);
+
+        if (async) {
+          req.onreadystatechange = function() {
+            if (req.readyState == 4 && req.status == 200) {
+              var response = null;
+              try {
+                response = JSON.parse(req.responseText);
+              } catch (e) {
+                response = req.responseText;
+              }
+              callback(response);
+            }
+          }
+        }
+
+        req.send(null);
+      }
+
+      function installFunction(obj, name) {
+        obj[name] = function() {
+          Request(name, arguments);
+        }
+      }
+
+      var server = {};
+      installFunction(server, 'words');
+
+      function updateProgress(progress) {
+        var progressElem = document.getElementById('progress');
+        progressElem.textContent = "Progress: " + progress[0] + "/" + progress[1];
+      }
+
+      function addRow(rowContent) {
+        var table = document.getElementById('resultsTable');
+        var row = document.createElement('tr');
+        var column = document.createElement('td');
+        column.appendChild(rowContent);
+        row.appendChild(column);
+        table.appendChild(row);
+      }
+
+      function showResult(resultJson) {
+        if (resultJson.error != undefined) {
+          alert(resultJson.error);
+        } else {
+          updateProgress(resultJson.progress);
+          for (var i in resultJson.results) {
+            var result = resultJson.results[i];
+
+            var span = document.createElement('span');
+            span.textContent = result;
+            addRow(span);
+          }
+          if (resultJson.done) {
+            alert("Done");
+          } else {
+            server.words(resultJson.template, resultJson.letters, resultJson.progress[0], showResult);
+          }
+        }
+      }
+
+      function search(template, letters) {
+        server.words(template, letters, showResult);
+      }
+
+    </script>
+  </head>
+  <body>
+    <ul class="tabs">
+      <li><a href="#">Guess</a></li>
+      <li><a href="#">Compose</a></li>
+    </ul>
+
+    <div class="panes">
+      <div>
+        <form onSubmit="search(searchForm.template.value, searchForm.letters.value);" id="searchForm">
+          <table>
+            <tr>
+              <td>
+                Template:
+              </td>
+              <td>
+                <input name="template" type="text"/></br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Bad Letters:
+              </td>
+              <td>
+                <input name="letters" type="text"/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button type="button" onClick="search(searchForm.template.value, searchForm.letters.value);">Search</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+        <span id="progress"></span>
+        <table id="resultsTable"/>
+      </div>
+      <div>Compose</div>
+    </div>
+    <script>
+      // perform JavaScript after the document is scriptable.
+      $(function() {
+        // setup ul.tabs to work as tabs for each div directly under div.panes
+        $("ul.tabs").tabs("div.panes > div");
+      });
+    </script>
+  </body>
+</html>

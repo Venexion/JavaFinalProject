@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/67/com.ai4u.games.tictactoe/trunk/tests/com/ai4u/games/tictactoe/tests
+END
+TicTacToeSuite.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/67/com.ai4u.games.tictactoe/trunk/tests/com/ai4u/games/tictactoe/tests/TicTacToeSuite.java
+END
+TicTacToeGameTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/59/com.ai4u.games.tictactoe/trunk/tests/com/ai4u/games/tictactoe/tests/TicTacToeGameTest.java
+END
+TTTMinimaxLogicTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/67/com.ai4u.games.tictactoe/trunk/tests/com/ai4u/games/tictactoe/tests/TTTMinimaxLogicTest.java
+END
+TicTacToeStateEvaluatorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/59/com.ai4u.games.tictactoe/trunk/tests/com/ai4u/games/tictactoe/tests/TicTacToeStateEvaluatorTest.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/135/linux_env
+END
+.bash_aliases
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/85/linux_env/.bash_aliases
+END
+.vimrc
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/133/linux_env/.vimrc
+END
+.bashrc
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/131/linux_env/.bashrc
+END
+.py_rc.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/135/linux_env/.py_rc.py
+END
+.inputrc
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/85/linux_env/.inputrc
+END
+.bash_completion
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/86/linux_env/.bash_completion
+END

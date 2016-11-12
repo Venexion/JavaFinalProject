@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/106/com.ai4u.util/trunk/src/com/ai4u/util
+END
+MathUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/77/com.ai4u.util/trunk/src/com/ai4u/util/MathUtil.java
+END
+SortUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/83/com.ai4u.util/trunk/src/com/ai4u/util/SortUtils.java
+END
+AnnotationUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/77/com.ai4u.util/trunk/src/com/ai4u/util/AnnotationUtils.java
+END
+BitUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/77/com.ai4u.util/trunk/src/com/ai4u/util/BitUtils.java
+END
+ArrayUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/82/com.ai4u.util/trunk/src/com/ai4u/util/ArrayUtils.java
+END
+Acceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/101/com.ai4u.util/trunk/src/com/ai4u/util/Acceptor.java
+END
+RandomUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/83/com.ai4u.util/trunk/src/com/ai4u/util/RandomUtils.java
+END
