@@ -50,5 +50,7 @@ public class GameDemo {
             }
             System.out.println();
         }
+
+        DrawMaze draw = new DrawMaze(makeMaze);
     }
 }
