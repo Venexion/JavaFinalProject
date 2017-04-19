@@ -1,0 +1,4 @@
+# Ignore the project's .idea directories, to make code easier to move, and 
+# prevent PII leaks
+*/.idea/
+
